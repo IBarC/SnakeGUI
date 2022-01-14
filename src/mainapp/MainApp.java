@@ -113,7 +113,7 @@ public class MainApp {
 						// juego.
 
 			// actualizamos el estado del juego
-			if (contador % 20 == 0) { // cada 200ms nos movemos o crecemos...
+			if (contador % 10 == 0) { // cada 200ms nos movemos o crecemos...
 				if (contador == 60) { // Cada 600ms crecemos y reseteamos el contador
 					contador = 0;
 					frame.tocaCrecer();
