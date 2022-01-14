@@ -52,7 +52,7 @@ public class MainApp {
 
 		// Les damos las propiedades a nuestro tablero. Su color, tamaño y borde
 		tablero.setBorder(BorderFactory.createLineBorder(Color.black));
-		tablero.setBackground(new java.awt.Color(250, 240, 200));
+		tablero.setBackground(new java.awt.Color(208, 237, 211));
 		tablero.setSize(600, 400);
 
 		// Le damos un enlace al tablero para que sepa quién es su frame (ventana) y así
