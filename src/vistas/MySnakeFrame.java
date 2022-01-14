@@ -1,6 +1,8 @@
-package snake;
+package vistas;
 
 import javax.swing.JFrame;
+
+import utils.Serpiente;
 
 /**
  * Clase MySnakeFrame

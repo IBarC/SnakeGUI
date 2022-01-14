@@ -1,10 +1,12 @@
-package snake;
+package utils;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
 import javax.swing.JPanel;
+
+import vistas.MySnakeFrame;
 
 /**
  * Necesitamos una clase JPanel que represente nuestro tablero y que a la hora de pintarse
@@ -18,6 +20,8 @@ import javax.swing.JPanel;
  */
 
 public class TableroJuego extends JPanel {
+	public TableroJuego() {
+	}
 	
 	    private MySnakeFrame snakeFrame;
 

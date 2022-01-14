@@ -1,7 +1,9 @@
-package snake;
+package controles;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+
+import vistas.MySnakeFrame;
 
 /**
  * Esta clase es también un ejemplo de como Java.awt controla la E/S de teclado.

@@ -1,10 +1,12 @@
-package snake;
+package utils;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
+
+import vistas.MySnakeFrame;
 
 public class MyButtonListener implements ActionListener {
 
