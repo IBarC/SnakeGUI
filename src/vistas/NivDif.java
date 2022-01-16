@@ -80,48 +80,28 @@ public class NivDif {
 		btnFacil.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frNivDif.setVisible(false);
-				try {
-					var l = new Lanzar(20);
-					l.start();
-				} catch (Exception e1) {
-					e1.printStackTrace();
-				}
+				new Tamanio(20);
 			}
 		});
 
 		btnIntermedio.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frNivDif.setVisible(false);
-				try {
-					var l = new Lanzar(10);
-					l.start();
-				} catch (Exception e1) {
-					e1.printStackTrace();
-				}
+				new Tamanio(10);
 			}
 		});
 
 		btnDificil.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frNivDif.setVisible(false);
-				try {
-					var l = new Lanzar(5);
-					l.start();
-				} catch (Exception e1) {
-					e1.printStackTrace();
-				}
+				new Tamanio(5);
 			}
 		});
 
 		btnImposible.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frNivDif.setVisible(false);
-				try {
-					var l = new Lanzar(1);
-					l.start();
-				} catch (Exception e1) {
-					e1.printStackTrace();
-				}
+				new Tamanio(1);
 			}
 		});
 	}

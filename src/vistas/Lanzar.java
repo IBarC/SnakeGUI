@@ -27,13 +27,18 @@ public class Lanzar extends Thread {
 	private JButton start;
 	private JButton pause;
 	private ControlTeclado miControlador;
+	public int tamAlto;
+	public int tamAncho;
+	
 
 	public void setVelocidad(int velocidad) {
 		this.velocidad = velocidad;
 	}
 
-	public Lanzar(int velocidad) throws InterruptedException {
+	public Lanzar(int velocidad, int tamAlto, int tamAncho) throws InterruptedException {
 		this.velocidad = velocidad;
+		this.tamAlto = tamAlto;
+		this.tamAncho = tamAncho;
 		//initialize();
 	}
 
@@ -58,7 +63,7 @@ public class Lanzar extends Thread {
 		// asignamos el tamaño a nuestra ventana, y hacemos que se cierre cuando nos
 		// pulsan
 		// la X de cerrar la ventana
-		this.frame.setSize(600, 600);
+		this.frame.setSize(tamAncho, tamAlto);
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// 3. Ahora creamos los componentes y los ponemos en la frame (ventana).
