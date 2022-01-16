@@ -123,13 +123,13 @@ public class Serpiente {
 
     //controlamos el cambio de dirección
     public void cambiaDireccion(int key) {
-    	if (key == KeyEvent.VK_A) {
+    	if (key == KeyEvent.VK_LEFT) {
     		iDireccion = Cuadrado.IZQ;
-    	} else if (key == KeyEvent.VK_S) {
+    	} else if (key == KeyEvent.VK_DOWN) {
     		iDireccion = Cuadrado.ABAJO;
-    	} else if (key == KeyEvent.VK_W) {
+    	} else if (key == KeyEvent.VK_UP) {
     		iDireccion = Cuadrado.ARRIBA;
-    	} else if (key == KeyEvent.VK_D) {
+    	} else if (key == KeyEvent.VK_RIGHT) {
     		iDireccion = Cuadrado.DER;
     	}
     }
